@@ -3,7 +3,7 @@ import './Campus.css'
 import gallery1 from '../../assets/gallery-1.png'
 import gallery2 from '../../assets/gallery-2.png'
 import gallery3 from '../../assets/gallery-3.png'
-import white_arrow from '../../Assets/white-arrow.png'
+import white_arrow from '../../assets/white-arrow.png'
 
 const Campus = () => {
   return (
