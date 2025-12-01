@@ -43,8 +43,8 @@ const Navbar = () => {
 
         <li><ScrollLink to='hero' smooth={true} offset={0} duration={500}>Home</ScrollLink></li>
         <li><ScrollLink to='program' smooth={true} offset={-260} duration={500}>Program</ScrollLink></li>
-        <li><ScrollLink to='about' smooth={true} offset={-150} duration={500}>Campus</ScrollLink></li>
-        <li><ScrollLink to='campus' smooth={true} offset={-260} duration={500}>About us</ScrollLink></li>
+        <li><ScrollLink to='about' smooth={true} offset={-150} duration={500}>About us</ScrollLink></li>
+        <li><ScrollLink to='campus' smooth={true} offset={-260} duration={500}>Features</ScrollLink></li>
         <li><ScrollLink to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</ScrollLink></li>
 
         <li>

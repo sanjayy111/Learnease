@@ -1,40 +1,41 @@
-import React from 'react'
-import './About.css'
-import about_img from '../../assets/about.png'
-import play_icon from '../../assets/play-icon.png'
-
+import React from "react";
+import "./About.css";
+import about_img from "../../assets/about.png";
+import play_icon from "../../assets/play-icon.png";
 
 const About = () => {
-    return (
-        <div className='about'>
+  return (
+    <div className="about">
+      <div className="about-left">
+        <img src={about_img} alt="" className="about-img" />
+        {/* <img src={play_icon} alt="" className='play-icon' /> */}
+      </div>
+      <div className="about-right">
+        <h3>ABOUT</h3>
+        <h2>Reimagine your career in the AI era</h2>
 
-            <div className="about-left">
-                <img src={about_img} alt="" className='about-img' />
-                <img src={play_icon} alt="" className='play-icon' />
-            </div>
-            <div className="about-right">
-                <h3>ABOUT UNIVERSITY</h3>
-                <h2>Nurturing Tomorrow's Leaders Today</h2>
+        <p>
+          AI isn't here to replace your potential; it's here to amplify it. This
+          is the moment to learn, adapt, and unlock new possibilities. Embrace
+          the tools, master the trends, and let innovation shape your next
+          chapter.
+        </p>
 
-                <p>Embark on a transformative educational journey with our
-                    university's comprehensive education programs. Our cutting-edge
-                    curriculum is designed to empower students with the knowledge,
-                    skills. and experiences needed to excel in the dynamic field of education.</p>
+        <p>
+          Artificial Intelligence is transforming every industry, and success
+          now depends on how quickly we adapt. Upskill, explore new pathways,
+          and redefine what your career can look like in a world powered by
+          intelligent technology
+        </p>
+        <p>
+          A common fear is that AI will take away jobs. While AI will automate
+          repetitive tasks, it cannot replace the unique strengths that humans
+          bring—creativity, emotional intelligence, critical thinking, cultural
+          understanding, and strategic decision-making.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-                <p>With a focus on innovation, hands-on learning, and personalized
-                    mentorship, our programs prepare aspiring educators to make a
-                    meaningful impact in classrooms, schools, and communities.</p>
-                <p>Whether you aspire to become a teacher, administrator, counselor,
-                    or educational leader, our diverse range of programs offers the
-                    perfect pathway to achieve your goals and unlock your full
-                    potential in shaping the future of education.</p>
-
-            </div>
-
-
-        </div>
-    )
-
-}
-
-export default About
+export default About;

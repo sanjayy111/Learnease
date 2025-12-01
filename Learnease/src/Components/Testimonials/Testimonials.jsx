@@ -46,7 +46,7 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_1} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
+                            <h3>Emilly Dunne</h3>
                             <span>Learnease, USA</span>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_2} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Learnease, USA</span>
+                            <h3>Rahul Gupta</h3>
+                            <span>Learnease, India</span>
                         </div>
                     </div>
                     <p>"The courses offered by Learnease have transformed my career. 
@@ -74,7 +74,7 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
+                            <h3>Andie Rose</h3>
                             <span>Learnease, USA</span>
                         </div>
                     </div>

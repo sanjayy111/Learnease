@@ -20,7 +20,7 @@ const HomePage = () => (
       <Title subTitle='OUR PROGRAM' title='What We Offer' />
       <Programs />
       <About />
-      <Title subTitle='Gallery' title='Campus Photos' />
+      <Title subTitle='Features' title='All-in-One Learning Experience' />
       <Campus />
       <Title subTitle='Testimonials' title='What Students Says' />
       <Testimonials />
@@ -29,6 +29,7 @@ const HomePage = () => (
     </div>
   </>
 );
+
 
 const App = () => {
   return (
