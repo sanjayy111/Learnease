@@ -72,12 +72,6 @@ git clone https://github.com/sanjayy111/Learnease.git
 cd backend
 npm install
 
-
-# Create a .env file:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
 Run backend:
 
 npm start
