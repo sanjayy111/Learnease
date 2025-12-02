@@ -11,14 +11,11 @@ Learnease is a full-stack web application designed to offer a smooth and interac
 Users can:
 
 - 📘 Learn through structured and interactive learning sections
-
-- 🤖 Generate AI-based quizzes using Google Gemini API
-
 - 🔐 Register and log in securely (JWT-based authentication connected to MongoDB)
-
 - 📚 Practice and revise anytime
-
 - 📱 Use the platform seamlessly on any device
+
+---
 
 ## 🛠 Tech Stack
 - **Frontend:** React.js(Vite), JavaScript (ES6+), Tailwind CSS, HTML, CSS.
@@ -30,6 +27,8 @@ Users can:
 ## Deployment:
 
 - Vercel (Frontend + Backend)
+
+---
 
 ## ✨ Features
 
