@@ -33,11 +33,11 @@ Users can:
 
 ## ✨ Features
 
-✅ Secure user authentication with JWT
-✅ Responsive and modern UI using Tailwind CSS
-✅ Fully deployed on Vercel (serverless backend)
-✅ Interactive learning modules
-✅ Simple and user-friendly navigation
+- ✅ Secure user authentication with JWT
+- ✅ Responsive and modern UI using Tailwind CSS
+- ✅ Fully deployed on Vercel (serverless backend)
+- ✅ Interactive learning modules
+- ✅ Simple and user-friendly navigation
 
 ---
 
