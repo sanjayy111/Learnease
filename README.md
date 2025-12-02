@@ -1,155 +1,96 @@
-🎓 Learnease – EdTech Learning Platform
+# 🎓 Learnease – EdTech Learning Platform
 
-🔗 Live Project: https://learnease-frontend.vercel.app
+A modern EdTech learning platform that allows students to learn through interactive modules, generate AI-based quizzes, and securely register or log in to manage their learning progress. The project replicates key features of online learning platforms using a MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for styling and Gemini AI for intelligent quiz generation.
+The entire platform is fully deployed on Vercel.
 
-Learnease is a modern EdTech learning platform that enables students to learn through interactive modules, test their knowledge with quizzes, and experience AI-powered learning features. The platform includes secure authentication, user management, quiz generation, and a responsive UI.
+---
 
-📝 Description
+## 📝 Description
 
-Learnease is a full-stack web application built to simulate the core features of modern EdTech platforms.
+Learnease is a full-stack web application designed to offer a smooth and interactive learning experience to students.
 Users can:
 
-🧑‍🏫 Learn through structured and interactive sections
+- 📘 Learn through structured and interactive learning sections
 
-🤖 Generate AI-based quizzes using Google Gemini API
+- 🤖 Generate AI-based quizzes using Google Gemini API
 
-🔐 Register and log in with secure JWT authentication
+- 🔐 Register and log in securely (JWT-based authentication connected to MongoDB)
 
-📚 Practice and revise anytime
+- 📚 Practice and revise anytime
 
-📱 Use the platform seamlessly on all devices
+- 📱 Use the platform seamlessly on any device
 
-The project is fully deployed on Vercel, with backend API + frontend UI hosted in the cloud.
+## 🛠 Tech Stack
+- **Frontend:** React.js(Vite), JavaScript (ES6+), Tailwind CSS, HTML, CSS.
+- **Backend:** Node.js, Express.js, JWT authentication, Cookie-based auth.
+- **Database:** MongoDB (Mongoose)
 
-🛠️ Tech Stack
+---
 
-Frontend:
+## Deployment:
 
-React.js (Vite)
+- Vercel (Frontend + Backend)
 
-JavaScript (ES6+)
+## ✨ Features
 
-Tailwind CSS
+✅ Secure user authentication with JWT
+✅ Responsive and modern UI using Tailwind CSS
+✅ Fully deployed on Vercel (serverless backend)
+✅ Interactive learning modules
+✅ Simple and user-friendly navigation
 
-HTML5, CSS3
+---
 
-Backend:
+## 🖼️ Screenshots
 
-Node.js
+| Screenshot | Description |
+|-------------|-------------|
+| ![Screenshot 1]() | Home Page 1 |
+| ![Screenshot 1]() | Home Page 2 |
+| ![Screenshot 1]() | Home Page 3 |
+| ![Screenshot 1]() | Home Page 4 |
+| ![Screenshot 2]() | Train Search |
+| ![Screenshot 4]() | Login |
+| ![Screenshot 1]() | Register |
 
-Express.js
+---
 
-JWT Authentication
+## ⚙️ Installation
 
-Cookie-based session handling
+To run this project locally:
 
-Database:
-
-MongoDB (Mongoose)
-
-AI Integration:
-
-Google Gemini API for quiz generation
-
-Deployment:
-
-Vercel (Frontend + Backend)
-
-✨ Features
-🎯 Learning Features
-
-✅ Daily learning components
-✅ Interactive study modules
-✅ Practice and revision tools
-✅ Responsive design for all devices
-
-🔐 Authentication
-
-✅ User registration
-✅ Secure login with JWT
-✅ Cookie-based authentication for better security
-
-🤖 AI Quiz Generator
-
-✓ Generate custom quizzes based on topics
-✓ Powered by Google Gemini AI
-✓ Great for revision and self-testing
-
-☁️ Deployment
-
-✓ Fully deployed on Vercel
-✓ Fast and serverless backend
-
-🖼️ Screenshots
-Screenshot	Description
-Screenshot 1	Home Page 1
-Screenshot 2	Home Page 2
-Screenshot 3	AI Quiz Generator
-Screenshot 4	Login Page
-Screenshot 5	Register Page
-Screenshot 6	Features Section
-
-(You can replace with your actual images.)
-
-⚙️ Installation
-1️⃣ Clone the repository
+```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/sanjayy111/Learnease.git
 
-2️⃣ Backend Setup
+# 2️⃣ Backend Setup
 cd backend
 npm install
 
 
-Create a .env file:
+# Create a .env file:
 
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-GEMINI_API_KEY=your_google_gemini_api_key
+JWT_SECRET=your_secret_key
 
-
-Run server:
+Run backend:
 
 npm start
 
-3️⃣ Frontend Setup
+# 3️⃣ Frontend Setup
 cd ../frontend
 npm install
 npm run dev
 
+# 🔗 Live Project Link
 
-Frontend runs on:
+🌐 Frontend:
+https://learnease-frontend.vercel.app
+```
 
-http://localhost:5173
+---
 
+## 📬 Contact
 
-Backend runs on:
-
-http://localhost:5000
-
-🔗 Deployment
-
-Frontend:
-➡️ https://learnease-frontend.vercel.app
-
-Backend:
-➡️ https://learnease-backend.vercel.app
-
-Both deployed with Vercel using serverless functions.
-
-💡 Future Enhancements
-
-Full student dashboard
-
-Analytics + progress tracking
-
-Notes and materials section
-
-Live classes integration
-
-Gamification (leaderboards, badges)
-
-📬 Contact
-
-📧 Email: sanjaysahu37199@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/sanjay-sahu-2557b82a4
+📧 **Email:** [sanjaysahu37199@gmail.com](mailto:sanjaysahu37199@gmail.com)  
+💻 **linkedin:** [www.linkedin.com/in/sanjay-sahu-2557b82a4](www.linkedin.com/in/sanjay-sahu-2557b82a4)
