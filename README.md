@@ -1,6 +1,6 @@
 # 🎓 Learnease – EdTech Learning Platform
 
-A modern EdTech learning platform that allows students to learn through interactive modules, generate AI-based quizzes, and securely register or log in to manage their learning progress. The project replicates key features of online learning platforms using a MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for styling and Gemini AI for intelligent quiz generation.
+A modern EdTech learning platform that allows students to learn through interactive modules, generate AI-based quizzes, and securely register or log in to manage their learning progress. The project replicates key features of online learning platforms using a MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for styling .
 The entire platform is fully deployed on Vercel.
 
 ---
@@ -24,9 +24,15 @@ Users can:
 
 ---
 
-## Deployment:
+## 🔗 Deployment
 
-- Vercel (Frontend + Backend)
+- Frontend:
+➡️ https://learnease-frontend.vercel.app
+
+- Backend:
+➡️ https://learnease-backend.vercel.app
+
+Both deployed with Vercel using serverless functions.
 
 ---
 
